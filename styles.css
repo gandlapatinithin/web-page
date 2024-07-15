@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #63d8ec;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-info span {
+    margin-right: 10px;
+}
+
+header {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-side {
+    width: 50%;
+}
+
+.right-side img {
+    width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+.dynamic-text {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.cursor {
+    font-weight: 100;
+    font-size: 2em;
+    color: #000;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.extended-content {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.extended-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.extended-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.extended-content .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.extended-content button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.extended-content button:hover {
+    background-color: #cc0000;
+}
